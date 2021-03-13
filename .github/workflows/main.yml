@@ -35,7 +35,8 @@ jobs:
       - name: Unity - Builder
         uses: game-ci/unity-builder@v2.0-alpha-6
         with:
-          targetPlatform: StandaloneWindows64
+          targetPlatform: StandaloneWindows
+          versioning: Semantic
 
       # Output
       - name: Upload Artifacts
