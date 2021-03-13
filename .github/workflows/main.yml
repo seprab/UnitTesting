@@ -35,7 +35,7 @@ jobs:
       - name: Unity - Builder
         uses: game-ci/unity-builder@v2.0-alpha-6
         with:
-          targetPlatform: WebGL
+          targetPlatform: Windows
 
       # Output
       - uses: actions/upload-artifact@v2
