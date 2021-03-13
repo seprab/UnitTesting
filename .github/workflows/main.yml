@@ -20,7 +20,7 @@ jobs:
 
       # Cache
       - name: Cache
-      - uses: actions/cache@v2.1.4
+        uses: actions/cache@v2.1.4
         with:
           path: Library
           key: Library
