@@ -10,7 +10,7 @@ env:
 jobs:
   build:
     name: Build my project ✨
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       # Checkout
       - name: Checkout
@@ -30,17 +30,3 @@ jobs:
         uses: game-ci/unity-test-runner@v2.0-alpha-3
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-
-      # Build
-      - name: Unity - Builder
-        uses: game-ci/unity-builder@v2.0-alpha-6
-        with:
-          targetPlatform: StandaloneWindows
-          versioning: Semantic
-
-      # Output
-      - name: Upload Artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: Build
-          path: build
