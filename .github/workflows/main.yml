@@ -53,10 +53,13 @@ jobs:
           path: Library
           key: Library
 
-      - name: Unity - Test runner
-        uses: game-ci/unity-test-runner@v2
+      - uses: game-ci/unity-test-runner@v2
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          testMode: ${{ matrix.testMode }}
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          checkName: ${{ matrix.testMode }} Test Results
+
       - uses: actions/upload-artifact@v2
         if: always()
         with:
