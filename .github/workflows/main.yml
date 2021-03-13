@@ -27,7 +27,7 @@ jobs:
 
       # Test
       - name: Unity - Test runner
-        uses: actions/upload-artifact@v2
+        uses: game-ci/unity-test-runner@v2
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
