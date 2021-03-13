@@ -27,6 +27,13 @@ jobs:
 
       # Test
       - name: Unity - Test runner
-        uses: game-ci/unity-test-runner@v2.0-alpha-3
+        uses: actions/upload-artifact@v2
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      #Upload artifacts
+      - uses: actions/upload-artifact@v2
+        if: always()
+        with:
+          name: Test results
+          path: artifacts
