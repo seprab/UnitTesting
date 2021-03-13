@@ -63,7 +63,3 @@ jobs:
         with:
           name: Test results for ${{ matrix.testMode }}
           path: artifacts
-      
-      - name: Return license
-        uses: game-ci/unity-return-license@v1
-        if: always()
