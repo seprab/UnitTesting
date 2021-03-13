@@ -57,7 +57,6 @@ jobs:
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           testMode: ${{ matrix.testMode }}
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
           checkName: ${{ matrix.testMode }} Test Results
 
       - uses: actions/upload-artifact@v2
