@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2021-05-12 16:50:55Z" end-time="2021-05-12 16:50:55Z" duration="0.0535672">
+  <test-suite type="TestSuite" id="1012" name="992493" fullname="992493" runstate="Runnable" testcasecount="5" result="Passed" start-time="2021-05-12 16:50:55Z" end-time="2021-05-12 16:50:55Z" duration="0.053567" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1020" name="Tests.dll" fullname="C:/Users/sergi/Documents/TicketsTemp/1040714/UnitTesting/Library/ScriptAssemblies/Tests.dll" runstate="Runnable" testcasecount="5" result="Passed" start-time="2021-05-12 16:50:55Z" end-time="2021-05-12 16:50:55Z" duration="0.040640" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="18168" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1013" name="EditModeTests" fullname="EditModeTests" classname="EditModeTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2021-05-12 16:50:55Z" end-time="2021-05-12 16:50:55Z" duration="0.039296" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="ParameterizedMethod" id="1019" name="Sum" fullname="EditModeTests.Sum" classname="EditModeTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2021-05-12 16:50:55Z" end-time="2021-05-12 16:50:55Z" duration="0.033172" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1014" name="Sum(0,0,0)" fullname="EditModeTests.Sum(0,0,0)" methodname="Sum" classname="EditModeTests" runstate="Runnable" seed="646896712" result="Passed" start-time="2021-05-12 16:50:55Z" end-time="2021-05-12 16:50:55Z" duration="0.018013" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1015" name="Sum(1,8,9)" fullname="EditModeTests.Sum(1,8,9)" methodname="Sum" classname="EditModeTests" runstate="Runnable" seed="1742112306" result="Passed" start-time="2021-05-12 16:50:55Z" end-time="2021-05-12 16:50:55Z" duration="0.000320" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1016" name="Sum(2,7,9)" fullname="EditModeTests.Sum(2,7,9)" methodname="Sum" classname="EditModeTests" runstate="Runnable" seed="1379403598" result="Passed" start-time="2021-05-12 16:50:55Z" end-time="2021-05-12 16:50:55Z" duration="0.000130" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1017" name="Sum(3,6,9)" fullname="EditModeTests.Sum(3,6,9)" methodname="Sum" classname="EditModeTests" runstate="Runnable" seed="1512229358" result="Passed" start-time="2021-05-12 16:50:55Z" end-time="2021-05-12 16:50:55Z" duration="0.001908" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1018" name="Sum(4,5,9)" fullname="EditModeTests.Sum(4,5,9)" methodname="Sum" classname="EditModeTests" runstate="Runnable" seed="829796921" result="Passed" start-time="2021-05-12 16:50:55Z" end-time="2021-05-12 16:50:55Z" duration="0.000137" asserts="0">
+            <properties />
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
