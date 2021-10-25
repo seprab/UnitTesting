@@ -16,10 +16,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
-    width: 1920
+    width: 2560
     height: 997
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Project
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -39,9 +39,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 726
+    x: 968
     y: 0
-    width: 717
+    width: 956
     height: 947
   m_MinSize: {x: 302, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -66,12 +66,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 403
+    x: 537
     y: 0
-    width: 323
+    width: 431
     height: 947
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -98,12 +98,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
+    width: 2560
     height: 947
   m_MinSize: {x: 908, y: 492}
   m_MaxSize: {x: 22006, y: 14042}
   vertical: 0
-  controlID: 254
+  controlID: 56
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -119,12 +119,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1443
+    x: 1924
     y: 0
-    width: 477
+    width: 636
     height: 947
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -147,7 +147,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 201
+    width: 268
     height: 572
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -173,7 +173,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 572
-    width: 403
+    width: 537
     height: 375
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -202,7 +202,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 2560
     height: 997
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -227,7 +227,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 2560
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -252,7 +252,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 977
-    width: 1920
+    width: 2560
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -275,12 +275,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 403
+    width: 537
     height: 947
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 255
+  controlID: 289
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,12 +300,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 403
+    width: 537
     height: 572
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 256
+  controlID: 290
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,9 +321,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 201
+    x: 268
     y: 0
-    width: 202
+    width: 269
     height: 572
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -354,13 +354,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1443
+    x: 1924
     y: 73
-    width: 476
+    width: 635
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 301
+    ID: 413
     splitterInitialOffset: 709
     currentActiveSplitter: -1
     realSizes:
@@ -391,9 +391,9 @@ MonoBehaviour:
       uniqueId: '[992493][suite]'
       name: 992493
       fullName: 992493
-      resultStatus: 1
-      duration: 1.415572
-      messages: 
+      resultStatus: 2
+      duration: 0.2468739
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -403,13 +403,13 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1089
-      uniqueId: '[PlayMode][C:/Users/sergi/Documents/TicketsTemp/1040714/UnitTesting/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1005
+      uniqueId: '[PlayMode][D:/Tickets/1120305/UnitTesting/Library/ScriptAssemblies/PlayMode.dll][suite]'
       name: PlayMode.dll
-      fullName: C:/Users/sergi/Documents/TicketsTemp/1040714/UnitTesting/Library/ScriptAssemblies/PlayMode.dll
-      resultStatus: 1
-      duration: 1.3410352
-      messages: 
+      fullName: D:/Tickets/1120305/UnitTesting/Library/ScriptAssemblies/PlayMode.dll
+      resultStatus: 2
+      duration: 0.2060688
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -417,15 +417,15 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1084
+      parentId: 1000
       parentUniqueId: '[992493][suite]'
-    - id: 1085
+    - id: 1001
       uniqueId: PlayMode.dll/[PlayMode][PlayModeTests][suite]
       name: PlayModeTests
       fullName: PlayModeTests
-      resultStatus: 1
-      duration: 1.3254391
-      messages: 
+      resultStatus: 2
+      duration: 0.1958318
+      messages: One or more child tests had errors
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
         Alternatively, your script can inherit from ScriptableObject or no base class
@@ -438,14 +438,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1089
-      parentUniqueId: '[PlayMode][C:/Users/sergi/Documents/TicketsTemp/1040714/UnitTesting/Library/ScriptAssemblies/PlayMode.dll][suite]'
-    - id: 1086
+      parentId: 1005
+      parentUniqueId: '[PlayMode][D:/Tickets/1120305/UnitTesting/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1002
       uniqueId: PlayMode.dll/PlayModeTests/[PlayMode][PlayModeTests.Scene1]
       name: Scene1
       fullName: PlayModeTests.Scene1
       resultStatus: 1
-      duration: 0.1926351
+      duration: 0.1257901
       messages: 
       output: 
       stacktrace: 
@@ -455,31 +455,52 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1085
+      parentId: 1001
       parentUniqueId: PlayMode.dll/[PlayMode][PlayModeTests][suite]
-    - id: 1087
+    - id: 1003
       uniqueId: PlayMode.dll/PlayModeTests/[PlayMode][PlayModeTests.Scene2]
       name: Scene2
       fullName: PlayModeTests.Scene2
-      resultStatus: 1
-      duration: 1.0696069
-      messages: 
-      output: 
-      stacktrace: 
+      resultStatus: 2
+      duration: 0.0270503
+      messages: 'Unhandled log message: ''[Error] Scene ''Game2'' couldn''t be loaded
+        because it has not been added to the build settings or the AssetBundle has
+        not been loaded.
+
+        To add a scene to the build settings use the menu
+        File->Build Settings...''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'Scene ''Game2'' couldn''t be loaded because it has not been added
+        to the build settings or the AssetBundle has not been loaded.
+
+        To
+        add a scene to the build settings use the menu File->Build Settings...
+
+'
+      stacktrace: 'UnityEngine.SceneManagement.SceneManager:LoadSceneAsync (string,UnityEngine.SceneManagement.LoadSceneMode)
+
+        PlayModeTests/<SetUpScene>d__1:MoveNext
+        () (at Assets/Tests/PlayMode/PlayModeTests.cs:29)
+
+        UnityEngine.SetupCoroutine:InvokeMoveNext
+        (System.Collections.IEnumerator,intptr)
+
+        
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1085
+      parentId: 1001
       parentUniqueId: PlayMode.dll/[PlayMode][PlayModeTests][suite]
-    - id: 1088
+    - id: 1004
       uniqueId: PlayMode.dll/PlayModeTests/[PlayMode][PlayModeTests.Scene3]
       name: Scene3
       fullName: PlayModeTests.Scene3
       resultStatus: 1
-      duration: 0.0328747
+      duration: 0.0211929
       messages: 
       output: 
       stacktrace: 
@@ -489,15 +510,20 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1085
+      parentId: 1001
       parentUniqueId: PlayMode.dll/[PlayMode][PlayModeTests][suite]
-    m_ResultText: 992493 (1.416s)
+    m_ResultText: '992493 (0.247s)
+
+      ---
+
+      One or more child tests had
+      errors'
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 10cf46a1
       m_LastClickedID: -1589194992
-      m_ExpandedIDs: 10cf46a1ca13f5e6ffffff7f
+      m_ExpandedIDs: 639afca010cf46a1ca13f5e6679e841affffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -543,12 +569,12 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1008
-      uniqueId: '[Tests][C:/Users/sergi/Documents/TicketsTemp/1040714/UnitTesting/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1015
+      uniqueId: '[Tests][D:/Tickets/1120305/UnitTesting/Library/ScriptAssemblies/Tests.dll][suite]'
       name: Tests.dll
-      fullName: C:/Users/sergi/Documents/TicketsTemp/1040714/UnitTesting/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 1
-      duration: 0.0287798
+      fullName: D:/Tickets/1120305/UnitTesting/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 0
+      duration: 0
       messages: 
       output: 
       stacktrace: 
@@ -557,7 +583,7 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1000
+      parentId: 1007
       parentUniqueId: '[992493][suite]'
     - id: 1001
       uniqueId: Tests.dll/[Tests][EditModeTests][suite]
@@ -728,15 +754,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 726
+    x: 968
     y: 73
-    width: 715
+    width: 954
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_PosLeft: {x: 0, y: 0}
   m_PosRight: {x: 0, y: 0}
   m_Scope: 1
-  m_SplitterFlex: 0.19753087
+  m_SplitterFlex: 0.2
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -784,7 +810,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 645
-    width: 402
+    width: 536
     height: 354
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -800,22 +826,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Tests/PlayMode
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Tests/PlayMode
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\sergi\Documents\TicketsTemp\1040714\UnitTesting
+  m_LastProjectPath: D:\Tickets\1120305\UnitTesting
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 703a0000
-    m_LastClickedID: 14960
-    m_ExpandedIDs: 00000000663a0000683a0000
+    m_SelectedIDs: ce3c0000
+    m_LastClickedID: 15566
+    m_ExpandedIDs: 00000000b63c0000c03c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -843,7 +869,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000663a0000683a0000
+    m_ExpandedIDs: 00000000b63c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -958,15 +984,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 200
+    width: 267
     height: 551
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: ce3c0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 34fbffff
+      m_ExpandedIDs: aaf7ffff56f8ffff34fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1010,9 +1036,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 201
+    x: 268
     y: 73
-    width: 200
+    width: 267
     height: 551
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -1126,9 +1152,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 201
+    x: 268
     y: 73
-    width: 200
+    width: 267
     height: 551
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -1137,7 +1163,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 200, y: 530}
+  m_TargetSize: {x: 267, y: 530}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1152,10 +1178,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -100
-    m_HBaseRangeMax: 100
-    m_VBaseRangeMin: -275.5
-    m_VBaseRangeMax: 275.5
+    m_HBaseRangeMin: -133.5
+    m_HBaseRangeMax: 133.5
+    m_VBaseRangeMin: -265
+    m_VBaseRangeMax: 265
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1172,24 +1198,24 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
-      width: 200
-      height: 551
+      y: 21
+      width: 267
+      height: 530
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 100, y: 275.5}
+    m_Translation: {x: 133.5, y: 265}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -100
-      y: -275.5
-      width: 200
-      height: 551
+      x: -133.5
+      y: -265
+      width: 267
+      height: 530
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 200, y: 551}
+  m_LastWindowPixelSize: {x: 267, y: 551}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1215,9 +1241,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 403
+    x: 537
     y: 73
-    width: 321
+    width: 429
     height: 926
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &23

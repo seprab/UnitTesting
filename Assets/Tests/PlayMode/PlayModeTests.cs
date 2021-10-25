@@ -8,14 +8,18 @@ using UnityEngine.TestTools;
 using UnityEngine.SceneManagement;
 using UnityEditor;
 using UnityEngine.TestRunner;
+using System.Linq;
+using System.IO;
+
 [assembly:TestRunCallback(typeof(TestListener))]
 
 public class PlayModeTests : MonoBehaviour, IPrebuildSetup
 {
 	public void Setup()
 	{
+		RemoveAllScenesFromBuildSettings();
 		AddSceneToBuildSettings("Assets/Scenes/Game1.unity");
-		AddSceneToBuildSettings("Assets/Scenes/Game2.unity");
+		//AddSceneToBuildSettings("Assets/Scenes/Game2.unity");
 		AddSceneToBuildSettings("Assets/Scenes/Game3.unity");
 	}
 
@@ -81,6 +85,16 @@ public class PlayModeTests : MonoBehaviour, IPrebuildSetup
 		scenes.Add(new EditorBuildSettingsScene(path, enabled));
 		EditorBuildSettings.scenes = scenes.ToArray();
 #endif
+	}
+	public static void CleanUpDeletedScenes()
+	{
+        var currentScenes = EditorBuildSettings.scenes;
+        var filteredScenes = currentScenes.Where(ebss => File.Exists(ebss.path)).ToArray();
+        EditorBuildSettings.scenes = filteredScenes;
+    }
+	public static void RemoveAllScenesFromBuildSettings()
+    {
+		EditorBuildSettings.scenes = new EditorBuildSettingsScene[] { };
 	}
 }
 
